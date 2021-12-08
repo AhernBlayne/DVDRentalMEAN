@@ -1,0 +1,68 @@
+link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh' crossorigin='anonymous')
+script(src='https://code.jquery.com/jquery-3.4.1.slim.min.js' integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n' crossorigin='anonymous')
+script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin='anonymous')
+link(rel='stylesheet' href='C:\WebFrameWorksProject\intense-headland-50514\public\stylesheets')
+meta(name='viewport' content='width=device-width, initial-scale=1')
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  a.navbar-brand(href='#') Movie Viewer
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  #navbarNav.collapse.navbar-collapse
+    ul.navbar-nav
+      li.nav-item.active
+        a.nav-link(href='/signin') Sign In! 
+      li.nav-item
+        a.nav-link(href='/signup') Sign Up!
+      li.nav-item
+        a.nav-link(href='/') View Dvds
+      li.nav-item
+        a.nav-link(href='/about') About
+form.form-horizontal
+  fieldset
+    // Form Name
+    legend Sign Up!
+    // Text input
+    .form-group
+      label.col-md-4.control-label(for='textinput') First Name
+      .col-md-4
+        input#textinput.form-control.input-md(name='textinput' type='text' placeholder='First Name')
+    // Text input
+    .form-group
+      label.col-md-4.control-label(for='textinput') Last Name
+      .col-md-4
+        input#textinput.form-control.input-md(name='textinput' type='text' placeholder='Last Name')
+    // Text input
+    .form-group
+      label.col-md-4.control-label(for='textinput') Address
+      .col-md-4
+        input#textinput.form-control.input-md(name='textinput' type='text' placeholder='Address')
+    // Text input
+    .form-group
+      label.col-md-4.control-label(for='textinput') Town
+      .col-md-4
+        input#textinput.form-control.input-md(name='textinput' type='text' placeholder='Town')
+    // Text input
+    .form-group
+      label.col-md-4.control-label(for='textinput') County
+      .col-md-4
+        input#textinput.form-control.input-md(name='textinput' type='text' placeholder='County')
+    // Text input
+    .form-group
+      label.col-md-4.control-label(for='textinput') User Name
+      .col-md-4
+        input#textinput.form-control.input-md(name='textinput' type='text' placeholder='User Name')
+    // Text input
+    .form-group
+      label.col-md-4.control-label(for='textinput') Password
+      .col-md-4
+        input#textinput.form-control.input-md(name='textinput' type='text' placeholder='Password')
+    // Button
+    .form-group
+      .col-md-4
+        button#singlebutton.btn.btn-primary(name='singlebutton') Submit
+        
+nav.navbar.fixed-bottom.navbar-light.bg-light
+  a.navbar-brand(href='#') Movie Viewer
+
+
