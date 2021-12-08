@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 let dbURI = "mongodb+srv://Blayne:3y75jpp3@cluster0.0l61r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-if (process.env.NODE_ENV === 'development') {
+if (process.env.NODE_ENV === 'production') {
   dbURI = process.env.MONGODB_URI;
 }
 mongoose.connect(dbURI, { useNewUrlParser: true })

@@ -58,8 +58,7 @@ input#myInput(type='text' onkeyup='myFunction()' placeholder='Search for Movies.
 ul#myUL
  each dvd in dvds
   li
-    a(href="#")= "Movie Title: " + dvd.title 
-    
+   a(href="#")="Movie Title: " + dvd.Title    
 nav.navbar.fixed-bottom.navbar-light.bg-light
   a.navbar-brand(href='#') Movie Viewer
 script.

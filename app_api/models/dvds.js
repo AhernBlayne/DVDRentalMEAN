@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-
 const dvdschema = new mongoose.Schema({
   title: String,
   director: String,

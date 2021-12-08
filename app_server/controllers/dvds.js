@@ -1,6 +1,6 @@
 const request = require('request');
 const apiOptions = { 
-server : 'localhost:3000' 
+server : 'http://localhost:3000' 
 }; 
 if (process.env.NODE_ENV === 'production') { 
 apiOptions.server = 'https://salty-reaches-43799.herokuapp.com/'; 
